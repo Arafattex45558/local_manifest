@@ -5,7 +5,10 @@ Just grab the manifest and sync to get device sources
 ```bash
 
 # Grab Local Manifest
-curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/Redmi-MT6768/local_manifests/master/eleven.xml --create-dirs
+# Lava
+curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/Arafattex/Local_manifest_mt6768/Lancelot/13.xml --create-dirs
+# Merlin
+curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/Arafattex/Local_manifest_mt6768/Merlin/13.xml --create-dirs
 
 # Sync
 repo sync -j$(nproc --all) --force-sync
