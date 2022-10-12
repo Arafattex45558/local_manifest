@@ -5,6 +5,10 @@
            fetch="https://github.com/6768Team"
            revision="13"/>
 
+<remote  name="Kernel"
+           fetch="https://github.com/Redmi-MT6768"
+           revision="13"/>
+
   <remote  name="Hardware"
            fetch="https://github.com/nashc-dev"
            revision="13"/>
@@ -19,9 +23,11 @@
 
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Ara" revision="lineage-20t"/>
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Ara" revision="lineage-20t"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Ara" revision="lineage-20"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Ara" revision="lineage-20"/>
  
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Kernel"/>
 
 
  <!-- Vendor Trees -->
