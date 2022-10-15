@@ -29,6 +29,14 @@
            fetch="https://github.com/Arafattex/Xiaomi_Kernel_OpenSource"
            revision="13"/>
 
+<remote  name="pixeld"
+           fetch="https://github.com/PixelExperience-Devices"
+           revision="13"/>
+
+<remote  name="Pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="13"/>
+
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768" revision="lineage-20"/>
