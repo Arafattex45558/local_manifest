@@ -8,4 +8,6 @@
   <project path="vendor/xiaomi/lava" name="6768Team/android_vendor_xiaomi_lava.git" remote="github" revision="lineage-20"/>
   <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr.git" remote="github" revision="thirteen"/>
   <project path="hardware/mediatek" name="PixelExperience/hardware_mediatek.git" remote="github" revision="thirteen"/>
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="begonia-dev/android_packages_modules_Bluetooth.git" remote="github" revision="13.0"/>
 </manifest>
