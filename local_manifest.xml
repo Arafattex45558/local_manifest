@@ -18,7 +18,7 @@
 
 <!-- Remove some modules -->
   <remove-project name="packages_modules_Bluetooth" />
-  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf"/>
+  <remove-project name="vendor_qcom_opensource_commonsys-intf_display"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="lava_device_tree" remote="me" revision="13"/>
