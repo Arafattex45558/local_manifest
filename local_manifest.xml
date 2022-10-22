@@ -16,9 +16,9 @@
           fetch="https://github.com/Arafattex"
           revision="13"/>
 
-  <remote name="los"
+  <!--remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="13"/>
+          revision="13"/-->
 
 <!-- Remove some modules -->
   <remove-project name="packages_modules_Bluetooth" />
