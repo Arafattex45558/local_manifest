@@ -22,12 +22,16 @@
           fetch="https://github.com/ArrowOS-Devices"
           revision="arrow-13.0"/>
 
+  <remote name="me"
+          fetch="https://github.com/Arafattex"
+          revision="pixel"/>
+
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="pixel-devices" revision="pixel"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="pixel"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/>
