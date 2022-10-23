@@ -18,9 +18,9 @@
           fetch="https://github.com/begonia-dev"
           revision="13.0"/>
 
-  <!--remote name="arrow"
+  <remote name="arrow"
           fetch="https://github.com/ArrowOS-Devices"
-          revision="arrow-13.0"/-->
+          revision="arrow-13.0"/>
 
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
