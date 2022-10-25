@@ -25,11 +25,15 @@
   <remote name="me"
           fetch="https://github.com/Arafattex"
           revision="pixel"/>
+  <remote name="melab"
+          fetch="https://gitlab.com/Arafattex"
+          revision="pixel"/>
 
 <!-- Remove some modules -->
   <remove-project name="platform/packages/modules/Bluetooth"/>
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf"/>
   <remove-project name="android_vendor_stag"/>
+  <remove-project name="vendor_gapps_thirteen"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="stagos"/>
@@ -53,4 +57,6 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" revision="thirteen"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pixel"/>
   <project path="vendor/stag" name="android_vendor_stag" remote="me" revision="t13"/>
+  <project path="vendor/gms" name="vendor_gapps_thirteen" remote="melab" revision="t13" />
+
 </manifest>
