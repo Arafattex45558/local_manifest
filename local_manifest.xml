@@ -26,6 +26,10 @@
           fetch="https://github.com/Arafattex"
           revision="pixel"/>
 
+  <remote name="melab"
+          fetch="https://gitlab.com/Arafattex"
+          revision="pixel"/>
+
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
