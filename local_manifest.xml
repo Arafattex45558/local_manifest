@@ -33,6 +33,7 @@
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
+  <remove-project name="vendor_aosp"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="pixel"/>
