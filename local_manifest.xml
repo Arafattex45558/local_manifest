@@ -36,7 +36,7 @@
   <remove-project name="vendor_aosp"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="pixel"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="pex"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/>
