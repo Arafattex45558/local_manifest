@@ -35,7 +35,7 @@
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   <remove-project name="vendor_aosp"/>
   <remove-project name="vendor_gapps"/>
-  <remove-project name=" packages_apps_Settings"/>
+  <!--remove-project name=" packages_apps_Settings"/-->
 
 
  <!-- Device Trees -->
