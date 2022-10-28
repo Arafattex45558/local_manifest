@@ -30,10 +30,6 @@
           fetch="https://gitlab.com/Arafattex"
           revision="pixel"/>
 
-  <remote name="melab2"
-          fetch="https://gitlab.com/Shas45558"
-          revision="pixel"/>
-
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
@@ -60,7 +56,7 @@
 
  <!-- Patch -->
   <project path="vendor/aosp" name="vendor_aosp_pex" remote="me" revision="trece"/>
-  <project path="vendor/gms" name="vendor_gms" remote="melab2" revision="xt" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="melab" revision="xt" clone-depth="1" />
   <!--project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bt" revision="13.0"/-->
   <!--project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-20.0"/-->
 
