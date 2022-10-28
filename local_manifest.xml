@@ -35,7 +35,6 @@
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   <remove-project name="vendor_aosp"/>
   <remove-project name="vendor_gapps"/>
-  <!--remove-project name=" packages_apps_Settings"/-->
 
 
  <!-- Device Trees -->
@@ -58,7 +57,7 @@
   <!--project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/-->
 
  <!-- Patch -->
-  <project path="packages/apps/Settings " name="packages_apps_Settings_pex" remote="me" revision="trece"/>
+
   <project path="vendor/aosp" name="vendor_aosp_pex" remote="me" revision="trece"/>
   <project path="vendor/gms" name="vendor_gms" remote="melab" revision="xt" clone-depth="1" />
   <!--project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bt" revision="13.0"/-->
