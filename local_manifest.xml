@@ -61,4 +61,15 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" revision="thirteen"/>
   <!--project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-20.0"/-->
 
+
+<!--lol-->
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" remote="aosp" />
+  <remove-project name="platform/external/icu"/>
+  <remove-project name="platform/libcore"/>
+  <remove-project name="platform/system/timezone"/>
+  <remove-project name="platform/libcore"/>
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
+  <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" />
 </manifest>
