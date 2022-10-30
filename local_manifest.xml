@@ -49,7 +49,7 @@
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel" revision="thirteen"/>
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/>
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/>
   <project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/>
 
