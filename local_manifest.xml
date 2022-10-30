@@ -67,7 +67,7 @@
   <remove-project name="platform/external/icu"/>
   <remove-project name="platform/libcore"/>
   <remove-project name="platform/system/timezone"/>
-  <remove-project name="platform/libcore"/>
+  <remove-project name="platform/external/cldr"/>
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
