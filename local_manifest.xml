@@ -41,8 +41,8 @@
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="los"/>
 
- <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/>
+  <!-- Common Trees -->
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="13"/>
 
  <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
@@ -53,8 +53,9 @@
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel" revision="thirteen"/>
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="fm" revision="13.0"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage"/>
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/>
+  <project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/>
 
  <!-- Patch -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" revision="thirteen"/>
