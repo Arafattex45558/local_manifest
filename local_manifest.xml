@@ -63,7 +63,7 @@
 
 
 <!--lol-->
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" remote="aosp" />
+  
   <remove-project name="platform/external/icu"/>
   <remove-project name="platform/libcore"/>
   <remove-project name="platform/system/timezone"/>
