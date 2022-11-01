@@ -31,11 +31,11 @@
           revision="pixel"/>
 
 <!-- Remove some modules -->
-  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform_packages_modules_Bluetooth" />
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="bootleg"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="graphene"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="13"/>
