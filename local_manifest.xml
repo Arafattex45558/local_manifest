@@ -25,6 +25,6 @@
   <project path="kernel/xiaomi/mt6895" name="kernel_xiaomi_mt6895" remote="dev" revision="12.1"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/xaga" name="vendor_xiaomi_xaga" remote="dev" revision="12.1"/>
+  <project path="vendor/xiaomi/xaga" name="vendor_xiaomi_xaga" remote="me" revision="12.1"/>
 
 </manifest>
