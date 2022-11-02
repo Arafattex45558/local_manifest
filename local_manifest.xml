@@ -6,12 +6,17 @@
           fetch="https://github.com/wbs306"
           revision="12.1" />
 
+  <remote name="dev"
+          fetch="https://github.com/Arafattex"
+          revision="12.1" />
+
+
 <!-- Remove some modules -->
     <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/xaga" name="device_xiaomi_xaga" remote="dev" revision="12.1"/>
+  <project path="device/xiaomi/xaga" name="device_xiaomi_xaga" remote="me" revision="12.1"/>
 
  <!-- Common Trees -->
   <!--project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/-->
