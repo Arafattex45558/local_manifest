@@ -6,7 +6,7 @@
           fetch="https://github.com/wbs306"
           revision="12.1" />
 
-  <remote name="dev"
+  <remote name="me"
           fetch="https://github.com/Arafattex"
           revision="12.1" />
 
