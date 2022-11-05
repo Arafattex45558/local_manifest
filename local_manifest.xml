@@ -35,10 +35,10 @@
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="bootleg"/>
+  <project path="device/xiaomi/lava" name="lancelot_dt" remote="me" revision="bootleg"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="13"/>
+  <!--project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="13"/-->
 
  <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
