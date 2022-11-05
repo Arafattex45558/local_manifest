@@ -44,7 +44,7 @@
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="pixel-devices-blobs" revision="thirteen"/>
+  <project path="vendor/xiaomi/lava" name="lancelot_vtt" remote="me" revision="bootleg"/>
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
