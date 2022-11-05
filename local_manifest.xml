@@ -41,7 +41,7 @@
   <!--project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="13"/-->
 
  <!-- Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
+  <project path="kernel/xiaomi/lava" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="lancelot_vtt" remote="me" revision="bootleg"/>
