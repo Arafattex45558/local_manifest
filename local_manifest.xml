@@ -32,7 +32,7 @@
 
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
-  <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
+  <remove-project name="android_device_mediatek_sepolicy_vndr"/>
   
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="lospro"/>
