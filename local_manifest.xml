@@ -43,16 +43,16 @@
   <remove-project name="android_device_mediatek_sepolicy_vndr"/>
   
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-S"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="6768" revision="lineage-20"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="6768" revision="lineage-19.1-S"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="6768" revision="lineage-20"/>
 
  <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768" revision="lineage-19.1-S"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768" revision="lineage-20"/>
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
