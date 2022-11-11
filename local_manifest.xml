@@ -30,6 +30,10 @@
           fetch="https://gitlab.com/Arafattex"
           revision="pixel"/> 
 
+  <remote name="gapps"
+          fetch="https://gitlab.com/MindTheGapps"
+          revision="pixel"/> 
+
   <remote name="6768"
           fetch="https://github.com/6768Team"
           revision="pixel"/> 
@@ -41,7 +45,8 @@
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
   <remove-project name="android_device_mediatek_sepolicy_vndr"/>
-  
+  <remove-project name="vendor/gms"/>
+
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-S"/>
 
@@ -53,6 +58,9 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768" revision="lineage-19.1-S"/>
+
+ <!-- Mind the gapps -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
