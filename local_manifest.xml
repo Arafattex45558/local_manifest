@@ -61,13 +61,13 @@
 
  <!-- Mind the gapps -->
   <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
-
+  <project path="vendor/shas" name="vendor_shas" remote="me" revision="13"/>
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-19.1"/>
   <!--project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/-->
   <!--project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/-->
-  <project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/>
+  <!--project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/-->
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
  
 </manifest>
