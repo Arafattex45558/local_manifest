@@ -148,6 +148,8 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/libs/systemui" />
+  <remove-project name="LineageOS/android_libcore"/>
+
 
   <!-- Build Soong -->
   <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-19.1">
