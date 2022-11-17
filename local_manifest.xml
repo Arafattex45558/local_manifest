@@ -70,4 +70,27 @@
   <!--project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/-->
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
  
+<!--Make los to lospro-->
+  <remote  name="hyper"
+           fetch="https://github.com/ForkLineageOS" />
+  <remove-project name="LineageOS/android_build"/>
+  <project path="build/make" name="ForkLineageOS/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/frameworks/libs/net"/>
+  <project path="frameworks/libs/net" name="ForkLineageOS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
+
 </manifest>
