@@ -59,7 +59,7 @@
  <!-- Mind the gapps -->
   <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
   <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
-  <project path="out/target/product/lava" name="kernel" remote="me" revision="main"/>
+  <project path="out/target/product/lava/kernel" name="kernel" remote="me" revision="main"/>
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-19.1"/>
