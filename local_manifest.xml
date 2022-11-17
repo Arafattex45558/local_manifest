@@ -44,7 +44,6 @@
 
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
-  <remove-project name="android_device_mediatek_sepolicy_vndr"/>
   <remove-project name="android_vendor_gms"/>
   <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
  <!-- Device Trees -->
