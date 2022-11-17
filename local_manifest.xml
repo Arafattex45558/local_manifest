@@ -172,7 +172,6 @@
 
   <!-- Sepolicy Repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-19.1" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="hyper" />
 
   <!-- Lineage SDK -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-19.1" />
