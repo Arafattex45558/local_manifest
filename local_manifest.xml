@@ -92,5 +92,9 @@
   </project>
   <remove-project name="platform/frameworks/libs/net"/>
   <project path="frameworks/libs/net" name="ForkLineageOS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="LineageOS/android_packages_modules_Connectivity"/>
+  <project path="packages/modules/Connectivity" name="ForkLineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+
+
 
 </manifest>
