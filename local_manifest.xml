@@ -143,7 +143,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="LineageOS/android_system_logging" />
   <remove-project name="platform/system/memory/lmkd" />
-  <remove-project name="platform/system/security" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
