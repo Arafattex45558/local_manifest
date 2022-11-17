@@ -149,6 +149,8 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="LineageOS/android_libcore"/>
+  <remove-project name="LineageOS/android_system_vold"/>
+
 
 
   <!-- Build Soong -->
