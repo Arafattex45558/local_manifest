@@ -44,8 +44,6 @@
 
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
-  <remove-project name="android_vendor_gms"/>
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-S"/>
 
