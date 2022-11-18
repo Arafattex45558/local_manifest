@@ -42,6 +42,10 @@
           fetch="https://github.com/nashc-dev"
           revision="pixel"/> 
 
+  <remote name="clang" fetch="https://github.com/MiBengal-Development" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="prebuilts_clang_host_linux-x86_clang-r416183b1" remote="clang" revision="main"/>
+
+
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
  <!-- Device Trees -->
