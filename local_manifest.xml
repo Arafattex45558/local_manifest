@@ -48,8 +48,9 @@
 
 <!-- Remove some modules -->
   <!--remove-project name="platform/packages/modules/Bluetooth" /-->
+
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-S"/>
+  <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-Smg"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="6768" revision="lineage-19.1-S"/>
@@ -60,8 +61,10 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768" revision="lineage-19.1-S"/>
 
- <!-- Mind the gapps -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
+ <!-- microg -->
+  <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="me" revision="master" />
+
+ <!-- Shas part -->
   <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
