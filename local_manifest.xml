@@ -73,4 +73,163 @@
   <!--project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/-->
   <!--project path="packages/apps/Viper4FX" name="packages_apps_Viper4FX" remote="me" revision="13"/-->
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
+ 
+<!--Make los to lospro-->
+  <remote  name="hyper"
+           fetch="https://github.com/ForkLineageOS" />
+  <remove-project name="LineageOS/android_build"/>
+  <project path="build/make" name="ForkLineageOS/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/frameworks/libs/net"/>
+  <project path="frameworks/libs/net" name="ForkLineageOS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="LineageOS/android_packages_modules_Connectivity"/>
+  <project path="packages/modules/Connectivity" name="ForkLineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
+
+  <remote  name="aex"
+           fetch="https://github.com/aex-tmp"
+           revision="refs/heads/12.x" />
+
+  <!-- GitLab -->
+  <remote  name="sairam-gitlab"
+           fetch="https://gitlab.com/Project-Awaken"
+           revision="refs/heads/12.1" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="twelve" />
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve"
+          review="gerrit.pixelexperience.org" />
+
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/12.1" />
+
+  <!-- Removed projects from remote -->
+  <remove-project name="platform/art" />
+  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="LineageOS/android_system_logging" />
+  <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="LineageOS/android_packages_modules_Wifi" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <remove-project name="LineageOS/android_libcore"/>
+  <remove-project name="LineageOS/android_system_vold"/>
+  <remove-project name="LineageOS/android_system_security"/>
+
+
+
+  <!-- Build Soong -->
+  <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-19.1">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Art Bionic libcore-->
+  <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="libcore" name="android_libcore" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" group="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Sepolicy Repos -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Lineage SDK -->
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Packages, services repos -->
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-19.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="hyper" revision="lineage-19.1" />
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="hyper" revision="lineage-19.1" />
+
+  <!-- System Repos-->
+  <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" groups="pdk" remote="aex" />
+  <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-19.1" />
+  <project path="system/bt" name="android_system_bt" remote="hyper" revision="lineage-19.1" />
+  <project path="system/vold" name="android_system_vold" remote="hyper" revision="lineage-19.1" />
+  <project path="system/netd" name="android_system_netd" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Vendor Repos-->
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-19.1" />
+
+  <!-- CAF Repos -->
+  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="hyper" revision="lineage-19.0" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="sairam-gitlab" clone-depth="1" />
+  
+  <!-- System -->
+  <project path="system/security" name="android_system_security" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="hyper" revision="lineage-19.1" />
+  <project path="system/logging" name="android_system_logging" groups="pdk" remote="hyper" revision="lineage-19.1" />
+
+  <!-- External Repos -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <project path="external/sqlite" name="external_sqlite" remote="hyper" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="hyper" revision="lineage-19.1" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="hyper" />
+  <project path="external/themelib" name="android_external_themelib" remote="hyper" revision="sc" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="hyper" revision="sc" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+
 </manifest>
