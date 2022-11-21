@@ -47,7 +47,7 @@
 
 
 <!-- Remove some modules -->
-  <!--remove-project name="platform/packages/modules/Bluetooth" /-->
+  <remove-project name="android_device_mediatek_sepolicy_vndr"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-Smg"/>
@@ -68,7 +68,7 @@
   <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
 
  <!-- Extra -->
-  <!--project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/-->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-19.1"/>
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
  
