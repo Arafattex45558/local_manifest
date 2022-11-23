@@ -63,7 +63,7 @@
 
  <!-- microg -->
   <!--project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="me" revision="master"/-->
-  <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
+  <project path="vendor/gapps" name="vendor_gapps" remote="melab" revision="sigma"/>
 
  <!-- Shas part -->
   <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
