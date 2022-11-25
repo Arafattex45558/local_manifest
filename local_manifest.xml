@@ -88,8 +88,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <remove-project name="LineageOS/android_external_cldr"/>
-  <project path="external/cldr" name="platform/external/cldr" groups="pdk" remote="aosp" />
+  <!--remove-project name="LineageOS/android_external_cldr"/-->
+  <!--project path="external/cldr" name="platform/external/cldr" groups="pdk" remote="aosp" /-->
 
   <remove-project name="platform/frameworks/libs/net"/>
   <project path="frameworks/libs/net" name="ForkLineageOS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
@@ -98,11 +98,11 @@
   <remove-project name="LineageOS/android_packages_modules_Connectivity"/>
   <project path="packages/modules/Connectivity" name="ForkLineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
 
-  <remove-project name="LineageOS/android_system_security"/>
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
+  <!--remove-project name="LineageOS/android_system_security"/-->
+  <!--project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" /-->
 
-  <remove-project name="LineageOS/android_system_vold"/>
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
+  <!--remove-project name="LineageOS/android_system_vold"/-->
+  <!--project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" /-->
 
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
 
