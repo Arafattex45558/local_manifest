@@ -98,8 +98,8 @@
   <remove-project name="LineageOS/android_packages_modules_Connectivity"/>
   <project path="packages/modules/Connectivity" name="ForkLineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
 
-  <remove-project name="LineageOS/android_system_security"/-->
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" /-->
+  <remove-project name="LineageOS/android_system_security"/>
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
 
   <remove-project name="LineageOS/android_system_vold"/>
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
