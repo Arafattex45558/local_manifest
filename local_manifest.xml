@@ -61,7 +61,7 @@
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768" revision="lineage-19.1-S"/>
 
  <!-- Mind the gapps -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="gapps" revision="sigma"/>
+  <project path="vendor/gapps" name="vendor_gapps" remote="melab" revision="sigma"/>
   <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768" revision="lineage-19.1-S"/>
