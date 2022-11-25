@@ -47,7 +47,6 @@
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/libcore" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="LineageOS/android_system_logging" />
   <remove-project name="platform/system/memory/lmkd" />
@@ -68,7 +67,6 @@
   <!-- Art Bionic libcore-->
   <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-19.1" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" />
-  <project path="libcore" name="android_libcore" remote="hyper" revision="lineage-19.1" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-19.1" />
