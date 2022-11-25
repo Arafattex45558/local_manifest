@@ -74,4 +74,8 @@
   <!--project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/-->
  
 
+<!--temp-->
+  <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
+  <remove-project name="android_libcore"/>
+
 </manifest>
