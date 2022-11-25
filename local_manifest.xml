@@ -131,9 +131,7 @@
            revision="refs/heads/12.1" />
 
   <!-- Removed projects from remote -->
-  <remove-project name="platform/art" />
   <remove-project name="LineageOS/android_build_soong" />
-  <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
@@ -167,10 +165,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <!-- Art Bionic libcore-->
-  <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-19.1" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-19.1" />
