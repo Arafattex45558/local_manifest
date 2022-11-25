@@ -88,8 +88,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <!--remove-project name="LineageOS/android_external_cldr"/-->
-  <!--project path="external/cldr" name="platform/external/cldr" groups="pdk" remote="aosp" /-->
+  <remove-project name="LineageOS/android_external_cldr"/>
+  <project path="external/cldr" name="platform/external/cldr" groups="pdk" remote="aosp" />
 
   <remove-project name="platform/frameworks/libs/net"/>
   <project path="frameworks/libs/net" name="ForkLineageOS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" />
@@ -98,11 +98,11 @@
   <remove-project name="LineageOS/android_packages_modules_Connectivity"/>
   <project path="packages/modules/Connectivity" name="ForkLineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
 
-  <!--remove-project name="LineageOS/android_system_security"/-->
-  <!--project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" /-->
+  <remove-project name="LineageOS/android_system_security"/-->
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" /-->
 
-  <!--remove-project name="LineageOS/android_system_vold"/-->
-  <!--project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" /-->
+  <remove-project name="LineageOS/android_system_vold"/>
+  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
 
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
 
@@ -131,6 +131,7 @@
            revision="refs/heads/12.1" />
 
   <!-- Removed projects from remote -->
+  <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_build_soong" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
@@ -176,6 +177,9 @@
 
   <!-- Sepolicy Repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-19.1" />
+
+  <!-- Art Bionic libcore-->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" />
 
   <!-- Lineage SDK -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-19.1" />
