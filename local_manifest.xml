@@ -131,8 +131,9 @@
            revision="refs/heads/12.1" />
 
   <!-- Removed projects from remote -->
-  <remove-project name="LineageOS/android_bionic" />
+  <!--remove-project name="platform/art" /-->
   <remove-project name="LineageOS/android_build_soong" />
+  <!--remove-project name="LineageOS/android_bionic" /-->
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
@@ -152,13 +153,16 @@
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
+  <!--remove-project name="platform/libcore" /-->
   <remove-project name="platform/external/sqlite" />
   <remove-project name="LineageOS/android_system_logging" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/system/vold" />
   <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- Build Soong -->
@@ -179,7 +183,9 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-19.1" />
 
   <!-- Art Bionic libcore-->
-  <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" />
+  <!--project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-19.1" /-->
+  <!--project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-19.1" /-->
+  <!--project path="libcore" name="android_libcore" remote="hyper" revision="lineage-19.1" /-->
 
   <!-- Lineage SDK -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-19.1" />
