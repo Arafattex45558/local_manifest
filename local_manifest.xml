@@ -234,4 +234,21 @@
   <project path="external/colorkt" name="android_external_colorkt" remote="hyper" revision="sc" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
 
+  <!-- fixer -->
+  <remove-project name="LineageOS/android_system_nfc"/>
+  <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
+
+  <remove-project name="LineageOS/android_external_dtc"/>
+  <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
+
+  <remove-project name="LineageOS/android_external_icu"/>
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
+
+  <remove-project name="LineageOS/android_system_timezone"/>
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
+
+  <remove-project name="LineageOS/android_hardware_nxp_nfc"/>
+  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp" />
+
+
 </manifest>
