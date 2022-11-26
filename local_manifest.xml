@@ -47,7 +47,7 @@
 
 
 <!-- Remove some modules -->
-  <remove-project name="android_device_mediatek_sepolicy_vndr"/>
+  <!--remove-project name="android_device_mediatek_sepolicy_vndr"/-->
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="lava_dt" remote="me" revision="lineage-19.1-S"/>
@@ -73,9 +73,5 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-19.1"/>
   <!--project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/-->
  
-
-<!--temp-->
-  <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
-  <remove-project name="android_libcore"/>
 
 </manifest>
