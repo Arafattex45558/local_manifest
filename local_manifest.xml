@@ -25,6 +25,13 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="me" revision="thirteen"/>
 
+ <!-- microg and gapps-->
+  <!--project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="me" revision="master"/-->
+  <project path="vendor/gapps" name="vendor_gapps" remote="melab" revision="sigma"/>
+
+ <!-- Shas part -->
+  <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
+
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="me" revision="thirteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="ne" revision="thirteen"/>
