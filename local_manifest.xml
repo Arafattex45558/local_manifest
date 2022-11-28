@@ -10,8 +10,8 @@
           revision="pixel"/>
 
 <!-- Remove some modules -->
-  <remove-project name="arrowos-project/android_vendor_gapps" />
-  <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
+  <remove-project name="arrowos-project/android_vendor_gapps"/>
+  <remove-project name="platform/packages/modules/Bluetooth"/>
   
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="corvus"/>
