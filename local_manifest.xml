@@ -12,7 +12,7 @@
 <!-- Remove some modules -->
   <remove-project name="arrowos-project/android_vendor_gapps"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
-  <remove-project name="prebuilts/clang/host/linux-x86"/>
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="corvus"/>
 
