@@ -10,7 +10,7 @@
           revision="pixel"/>
 
 <!-- Remove some modules -->
-  <!--remove-project name="packages_modules_Bluetooth" /-->
+  <remove-project name="arrowos-project/android_vendor_gapps" />
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
   
  <!-- Device Trees -->
