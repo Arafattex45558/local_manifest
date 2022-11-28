@@ -34,7 +34,7 @@
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="me" revision="thirteen"/>
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="ne" revision="thirteen"/>
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="me" revision="thirteen"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
   <!--project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/-->
 </manifest>
