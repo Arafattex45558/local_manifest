@@ -35,4 +35,5 @@
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="me" revision="thirteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="me" revision="thirteen"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-3289846" name="prebuilts_clang_host_linux-x86_clang-3289846" remote="me" revision="master" />
 </manifest>
