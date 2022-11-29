@@ -44,6 +44,7 @@
  <!--clange-->
   <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="prebuilts_clang_host_linux-x86_clang-3289846" remote="me" revision="master" /-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-3289846" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <remove-project name="android_bionic" />
   <project path="bionic" name="romgharti/android_bionic" remote="mojito" revision="13" />
 
