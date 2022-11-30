@@ -42,7 +42,7 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
 
  <!--clange-->
-  <project path="prebuilts/clang/host/linux-x86/clang-3289846" name="prebuilts_clang_host_linux-x86_clang-3289846" remote="me" revision="master" />
+  <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="prebuilts_clang_host_linux-x86_clang-3289846" remote="me" revision="master" /-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="prebuilts_clang_host_linux-x86_clang-proton" remote="me" revision="main" />
   <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
