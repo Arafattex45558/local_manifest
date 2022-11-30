@@ -43,4 +43,7 @@
 
  <!--clange-->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="prebuilts_clang_host_linux-x86_clang-proton" remote="me" revision="main" />
+  <remove-project name="android_bionic" />
+  <project path="bionic" name="romgharti/android_bionic" remote="mojito" revision="13" />
+
 </manifest>
