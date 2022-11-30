@@ -49,6 +49,6 @@
   <remove-project name="android_bionic" />
   <project path="bionic" name="romgharti/android_bionic" remote="mojito" revision="13" />
   <remove-project name="platform/frameworks/rs"/>
-  <project path="frameworks/rs" name="platform/frameworks/rs" remote="me" revision="master" />
+  <project path="frameworks/rs" name="platform-frameworks-rs" remote="me" revision="master" />
  
 </manifest>
