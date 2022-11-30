@@ -48,5 +48,7 @@
   <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
   <remove-project name="android_bionic" />
   <project path="bionic" name="romgharti/android_bionic" remote="mojito" revision="13" />
+  <remove-project name="platform/frameworks/rs"/>
+  <project path="frameworks/rs" name="platform/frameworks/rs" remote="me" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-3289846" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
