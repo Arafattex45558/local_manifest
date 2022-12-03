@@ -18,23 +18,23 @@
   <remove-project name="arrowos-project/android_vendor_gapps"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="corvus"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me"  clone-depth="1" revision="corvus"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" revision="thirteen"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteen"/>
 
  <!-- Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="me" revision="thirteen"/>
+  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="me" clone-depth="1" revision="thirteen"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="me" revision="thirteen"/>
+  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="me" revision="thirteen" clone-depth="1"/>
 
  <!-- microg and gapps-->
   <!--project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="me" revision="master"/-->
-  <project path="vendor/gapps" name="vendor_gapps" remote="melab" revision="tau"/>
+  <project path="vendor/gapps" name="vendor_gapps" remote="melab" clone-depth="1" revision="tau"/>
 
  <!-- Shas part -->
-  <project path="vendor/shas" name="vendor_shas" remote="melab" revision="13"/>
+  <project path="vendor/shas" name="vendor_shas" remote="melab"  clone-depth="1" revision="13"/>
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="me" revision="thirteen"/>
