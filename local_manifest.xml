@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="ThakurRahulSingh" fetch="https://github.com/ThakurRahulSingh" />
   <remote name="me"
           fetch="https://github.com/Arafattex" />
 
@@ -10,8 +10,7 @@
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
 
-  <remote name="mojito"
-          fetch="https://github.com" />
+  
 
 
 <!-- Remove some modules -->
@@ -42,11 +41,18 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
 
  <!--clange-->
-  <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="prebuilts_clang_host_linux-x86_clang-3289846" remote="me" revision="master" /-->
-  <!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="prebuilts_clang_host_linux-x86_clang-proton" remote="me" revision="main" />
-  <!--project path="prebuilts/clang/host/linux-x86/clang-3289846" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="ThakurRahulSingh/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="lineage-20.0" />
+
   <remove-project name="android_bionic" />
-  <project path="bionic" name="romgharti/android_bionic" remote="mojito" revision="13" />
+  <project path="bionic" name="ThakurRahulSingh/android_bionic" remote="github" revision="13" />
+
+  <remove-project name="android_device_corvus_sepolicy" />
+  <project path="device/corvus/sepolicy" name="ThakurRahulSingh/android_device_corvus_sepolicy" remote="github" revision="13" />
+
+  <remove-project name="android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="ThakurRahulSingh/android_packages_services_Telecomm" remote="github" revision="13" />
+   
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
 </manifest>
