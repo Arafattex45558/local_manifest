@@ -47,9 +47,6 @@
   <remove-project name="android_bionic" />
   <project path="bionic" name="ThakurRahulSingh/android_bionic" remote="github" revision="13" />
 
-  <remove-project name="android_device_corvus_sepolicy" />
-  <project path="device/corvus/sepolicy" name="ThakurRahulSingh/android_device_corvus_sepolicy" remote="github" revision="13" />
-
   <remove-project name="android_packages_services_Telecomm" />
   <project path="packages/services/Telecomm" name="ThakurRahulSingh/android_packages_services_Telecomm" remote="github" revision="13" />
    
