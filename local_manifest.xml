@@ -54,5 +54,6 @@
   <project path="packages/services/Telecomm" name="ThakurRahulSingh/android_packages_services_Telecomm" remote="github" revision="13" />
    
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="prebuilts_clang_host_linux-x86_clang-proton" remote="me" revision="main" />
 
 </manifest>
