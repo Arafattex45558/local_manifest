@@ -28,9 +28,11 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="me" revision="thirteen" clone-depth="1"/>
 
- <!-- microg and gapps-->
+ <!-- microg and gapps ngapps-->
   <!--project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="me" revision="master"/-->
-  <project path="vendor/gapps" name="vendor_gapps" remote="melab" clone-depth="1" revision="tau"/>
+  <!--project path="vendor/gapps" name="vendor_gapps" remote="melab" clone-depth="1" revision="tau"/-->
+  <project path="vendor/ngapps" name="vendor_ngapps" remote="melab" clone-depth="1" revision="13"/>
+
 
  <!-- Shas part -->
   <project path="vendor/shas" name="vendor_shas" remote="melab"  clone-depth="1" revision="13"/>
