@@ -20,7 +20,7 @@
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me"  clone-depth="1" revision="corvus"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteen"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteent"/>
 
  <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="me" clone-depth="1" revision="thirteen"/>
@@ -42,6 +42,7 @@
   <project path="hardware/mediatek" name="hardware_mediatek" remote="me" revision="thirteen"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="thirteen"/>
  
  <!--clange-->
   <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
