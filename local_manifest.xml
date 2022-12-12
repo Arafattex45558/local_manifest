@@ -20,7 +20,7 @@
   <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me"  clone-depth="1" revision="corvus"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteent"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteentt"/>
 
  <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="me" clone-depth="1" revision="thirteen"/>
