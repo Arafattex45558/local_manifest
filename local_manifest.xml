@@ -17,7 +17,7 @@
   <remove-project name="arrowos-project/android_vendor_gapps"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me"  clone-depth="1" revision="corvus"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me"  clone-depth="1" revision="omni"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="me" clone-depth="1" revision="thirteentt"/>
