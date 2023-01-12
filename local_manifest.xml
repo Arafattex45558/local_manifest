@@ -18,7 +18,7 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
 
- <--Hardware -->
+ <!--Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20"/>
 
  <--Mtk sepolicy -->
