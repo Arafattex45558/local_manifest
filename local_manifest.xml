@@ -22,7 +22,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/epolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
 
  <!--Fm radio -->
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
