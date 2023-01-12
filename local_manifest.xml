@@ -2,9 +2,11 @@
 <manifest>
 
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
-     
+  <remote name="melab" fetch="https://gitlab.com/Arafattex" />
+  <remote name="me" fetch="https://github.com/Arafattex" />
+
  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
      
  <!-- Device Tree -->
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
@@ -27,6 +29,9 @@
  <!--Fm radio -->
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
 
+ <!--Anx cam-->
+  <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
+  
  <!-- Extra -->
 
 
