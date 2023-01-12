@@ -24,7 +24,7 @@
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/epolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
 
- <--Fm radio -->
+ <!--Fm radio -->
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
 
  <!-- Extra -->
