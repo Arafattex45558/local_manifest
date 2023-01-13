@@ -4,6 +4,7 @@
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
   <remote name="melab" fetch="https://gitlab.com/Arafattex" />
   <remote name="me" fetch="https://github.com/Arafattex" />
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
@@ -33,6 +34,6 @@
   <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
   
  <!-- Extra -->
-
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
 </manifest>
