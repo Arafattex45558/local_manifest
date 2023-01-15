@@ -31,8 +31,14 @@
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
 
  <!--Anx cam-->
-  <project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/>
-  
+  <!--project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/-->
+
+ <!--Ngapps-->
+  <project path="vendor/ngapps" name="vendor_ngapps" remote="melab" clone-depth="1" revision="13"/>
+
+ <!-- Shas part -->
+  <project path="vendor/shas" name="vendor_shas" remote="melab"  clone-depth="1" revision="13"/>
+
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
