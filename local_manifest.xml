@@ -13,7 +13,7 @@
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
 
  <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
+  <project path="kernel/xiaomi/mt6768" name="oc_a13r" remote="me" revision="a13r"/>
 
  <!-- vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
