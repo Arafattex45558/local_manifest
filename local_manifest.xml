@@ -41,5 +41,7 @@
 
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+  <remove-project name="vendor/gms"/>
+
 
 </manifest>
