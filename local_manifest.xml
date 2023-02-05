@@ -5,7 +5,15 @@
   <remote name="melab" fetch="https://gitlab.com/Arafattex" />
   <remote name="me" fetch="https://github.com/Arafattex" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="imss" fetch="https://github.com/CipherOS" />
 
+<!-- Extras -->
+  <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="imss" revision="thirteen" clone-depth="1" />
+  <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="imss" revision="thirteen" clone-depth="1" />
+
+Add this on your local manifest for CRDroid
 
   <remote name="track" fetch="https://github.com/CodeChas3r"/>
   <remote name="hub" fetch="https://github.com" />
