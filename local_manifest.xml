@@ -6,18 +6,16 @@
   <remote name="me" fetch="https://github.com/Arafattex" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="imss" fetch="https://github.com/CipherOS" />
-
-<!-- Extras -->
-  <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="imss" revision="thirteen" clone-depth="1" />
-  <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="imss" revision="thirteen" clone-depth="1" />
-
-Add this on your local manifest for CRDroid
-
   <remote name="track" fetch="https://github.com/CodeChas3r"/>
   <remote name="hub" fetch="https://github.com" />
    
+<!-- Extras -->
+  <!--remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/-->
+  <!--project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="imss" revision="thirteen" clone-depth="1" /-->
+  <!--remove-project name="crdroidandroid/android_frameworks_opt_telephony" /-->
+  <!--project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="imss" revision="thirteen" clone-depth="1" /-->
+
+
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
@@ -29,28 +27,28 @@ Add this on your local manifest for CRDroid
   <project path="kernel/xiaomi/mt6768" name="oc_a13r" remote="me" revision="a13r"/>
 
  <!-- vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="me" revision="lineage-20"/>
 
  <!--Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="me" revision="lineage-20"/>
 
  <!--Fm radio -->
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/>
 
  <!--Anx cam-->
   <!--project path="vendor/ANXCamera" name="vendor_anxcamera" remote="melab" revision="lava"/-->
 
  <!--Ngapps-->
-  <project path="vendor/ngapps" name="vendor_ngapps" remote="melab" clone-depth="1" revision="13"/>
+  <!--project path="vendor/ngapps" name="vendor_ngapps" remote="melab" clone-depth="1" revision="13"/-->
 
  <!-- Shas part -->
-  <project path="vendor/shas" name="vendor_shas" remote="melab"  clone-depth="1" revision="13"/>
+  <!--project path="vendor/shas" name="vendor_shas" remote="melab"  clone-depth="1" revision="13"/-->
 
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
