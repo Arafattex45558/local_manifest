@@ -29,7 +29,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
 
  <!--Gapps-->
-  <project path="vendor/gapps" name="GMS" remote="me" clone-depth="1" revision="13"/>
+  <project path="vendor/gapps" name="GMS" remote="R9Lab" clone-depth="1" revision="13"/>
 
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
