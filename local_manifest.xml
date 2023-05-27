@@ -7,6 +7,9 @@
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="R9Lab" fetch="https://gitlab.com/R9Lab" />
   <remote name="los" fetch="https://github.com/LineageOS" />
+  <remote name="Arrow" fetch="https://github.com/ArrowOS" />
+
+  
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="los" revision="lineage-20"/>
      
@@ -33,5 +36,6 @@
 
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
 
 </manifest>
