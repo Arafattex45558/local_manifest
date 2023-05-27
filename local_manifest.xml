@@ -19,6 +19,10 @@
  <!-- vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
 
+ <!--vendor tree-->
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
+
+
  <!--Gapps-->
   <project path="vendor/gapps" name="GMS" remote="R9Lab" clone-depth="1" revision="13"/>
 
