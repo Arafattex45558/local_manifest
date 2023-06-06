@@ -42,6 +42,8 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20" clone-depth="1" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices" />
 
+  
 
 </manifest>
