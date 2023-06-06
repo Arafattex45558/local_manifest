@@ -40,7 +40,7 @@
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
-  <remove-project name="vendor/aospa" />
+  <remove-project name="android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="me" revision="topaz" clone-depth="1" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20" clone-depth="1" />
 
