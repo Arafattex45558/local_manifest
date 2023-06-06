@@ -27,7 +27,7 @@
   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
 
  <!--Hardware -->
-  <!--project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/-->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
@@ -41,9 +41,12 @@
   <project path="vendor/aospa" name="android_vendor_aospa" remote="me" revision="topaz" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20" clone-depth="1" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <remove-project name="proprietary_vendor_qcom_common_sdclang" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_data" />
 
+  
   
 
 </manifest>
