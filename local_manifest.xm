@@ -44,7 +44,7 @@
   <remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices" />
   <remove-project name="proprietary_vendor_qcom_common" />
   <remove-project name="proprietary_vendor_qcom_sdclang" />
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_data" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
 
   
   
