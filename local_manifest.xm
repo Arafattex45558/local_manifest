@@ -10,27 +10,6 @@
   <remote name="Arrow" fetch="https://github.com/ArrowOS" />
   <remote name="mind" fetch="https://gitlab.com/MindTheGapps" />
   
- <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="los" revision="lineage-20"/>
-     
- <!-- Device Tree -->
-  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="me" revision="aospa"/>
-
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
-
-
- <!-- vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
-
- <!--vendor tree-->
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
-
- <!--Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
-
- <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
 
  
 
