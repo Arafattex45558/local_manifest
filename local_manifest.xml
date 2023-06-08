@@ -34,9 +34,6 @@
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
 
- <!--Gapps-->
-  <!--project path="vendor/gapps" name="Gapps" remote="me" clone-depth="1" revision="13"/-->
-  <project path="vendor/gapps" name="vendor_gapps" remote="mind" clone-depth="1" revision="tau"/>
 
 
  <!-- Extra -->
