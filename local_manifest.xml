@@ -47,14 +47,14 @@
  <!-- Extra -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
-  <remove-project name="vendor_addons"/>
-  <project path="vendor/addons" name="vendor_addons" remote="alpha" />
-  <remove-project name="platform/packages/modules/Scheduling"/>
-  <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <remove-project name="platform/prebuilts/qemu-kernel"/>
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
+  <!--remove-project name="vendor_addons"/-->
+  <!--project path="vendor/addons" name="vendor_addons" remote="alpha" /-->
+  <!--remove-project name="platform/packages/modules/Scheduling"/-->
+  <!--project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
+  <!--remove-project name="platform/prebuilts/qemu-kernel"/-->
+  <!--project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" /-->
+  <!--remove-project name="platform/prebuilts/clang/host/linux-x86"/-->
+  <!--project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" /-->
   
 
   
