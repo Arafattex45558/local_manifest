@@ -36,7 +36,10 @@
 
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="11_android_device_xiaomi_lancelot" remote="me" revision="11t"/>
+  <project path="device/xiaomi/lancelot" name="11_android_device_xiaomi_lancelot" remote="me" revision="11"/>
+
+ <!--vendor tree-->
+  <project path="vendor/xiaomi/lancelot" name="11_proprietary_vendor_xiaomi_lancelot" remote="me" revision="11"/>
 
 
 </manifest>
