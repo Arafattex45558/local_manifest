@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="melab" fetch="https://gitlab.com/Arafattex" />
   <remote name="me" fetch="https://github.com/Arafattex45558" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="R9Lab" fetch="https://gitlab.com/R9Lab" />
-  <remote name="los" fetch="https://github.com/LineageOS" />
-  <remote name="Arrow" fetch="https://github.com/ArrowOS" />
-  <remote name="mind" fetch="https://gitlab.com/MindTheGapps" />
   
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="14.0"/>
@@ -31,14 +24,5 @@
 
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="me" revision="14.0"/>
-
- <!--Gapps-->
-  <!--project path="vendor/gapps" name="Gapps" remote="me" clone-depth="1" revision="13"/-->
-  <!--project path="vendor/gapps" name="vendor_gapps" remote="mind" clone-depth="1" revision="tau"/-->
-
-
- <!-- Extra -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
 
 </manifest>
