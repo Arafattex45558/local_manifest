@@ -20,9 +20,11 @@
   <project path="vendor/xiaomi/lancelot" name="Arafattex45558/proprietary_vendor_xiaomi_lancelot" remote="me" revision="14.0"/>
 
  <!--Hardware -->
-  <!--project path="hardware/mediatek" name="Arafattex45558/android_hardware_mediatek" remote="me" revision="14.0"/-->
+  <remove-project name="android_hardware_mediatek" />
+  <project path="hardware/mediatek" name="Arafattex45558/android_hardware_mediatek" remote="me" revision="14.0"/>
 
  <!-- Mtk sepolicy -->
-  <!--project path="device/mediatek/sepolicy_vndr" name="Arafattex45558/android_device_mediatek_sepolicy_vndr" remote="me" revision="14.0"/-->
+  <remove-project name="android_device_mediatek_sepolicy_vndr" />
+  <project path="device/mediatek/sepolicy_vndr" name="Arafattex45558/android_device_mediatek_sepolicy_vndr" remote="me" revision="14.0"/>
 
 </manifest>
