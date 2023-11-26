@@ -4,7 +4,7 @@
   <remote name="me" fetch="https://github.com" />
   
  <!-- Common Device Tree -->
-  <!--project path="device/xiaomi/mt6768-common" name="Arafattex45558/android_device_xiaomi_mt6768-common" remote="me" revision="14.0"/-->
+  <project path="device/xiaomi/mt6768-common" name="Arafattex45558/android_device_xiaomi_mt6768-common" remote="me" revision="14.0"/>
      
  <!-- Device Tree -->
   <!--project path="device/xiaomi/lancelot" name="Arafattex45558/android_device_xiaomi_lancelot" remote="me" revision="Arrow-14.0"/-->
