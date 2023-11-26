@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--remote name="me" fetch="https://github.com" /-->
+  <remote name="me" fetch="https://github.com" />
   
  <!-- Common Device Tree -->
   <!--project path="device/xiaomi/mt6768-common" name="Arafattex45558/android_device_xiaomi_mt6768-common" remote="me" revision="14.0"/-->
