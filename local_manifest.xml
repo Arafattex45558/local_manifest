@@ -23,6 +23,6 @@
   <!--project path="hardware/mediatek" name="Arafattex45558/android_hardware_mediatek" remote="me" revision="14.0"/-->
 
  <!-- Mtk sepolicy -->
-  <!--project path="device/mediatek/sepolicy_vndr" name="Arafattex45558/android_device_mediatek_sepolicy_vndr" remote="me" revision="14.0"/-->
+  <project path="device/mediatek/sepolicy_vndr" name="Arafattex45558/android_device_mediatek_sepolicy_vndr" remote="me" revision="14.0"/>
 
 </manifest>
